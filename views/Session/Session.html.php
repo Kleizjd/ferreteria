@@ -45,7 +45,12 @@
                                     <input type="submit" class="btn btn-lg btn-primary btn-block" value="Ingresar">
                                 </fieldset>
                             </form>
-                            <a href="views/Session/Register.html.php">Crear Usuario</a>
+                            <div class="text-center">
+                            <a  class="d-block small mt-3" href="views/Session/Register.html.php">Crear Usuario</a>
+
+                            <!-- <a class="d-block small mt-3" href="register.html">Register an Account</a> -->
+                            <a class="d-block small" href="views/Session/forgot-password.html.php">Forgot Password?</a>
+                            </div>
                         </div>
                     </div>
             </div>
