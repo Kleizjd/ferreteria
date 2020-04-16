@@ -4,7 +4,7 @@
 <!-- Favicon icon -->
 <link rel="shortcut icon" href="../../public/img/favicon/logo.png" type="image/x-icon">
 <!-- ======================================CSS======================================== -->
-
+<script src="../../assets/vendor/jquery/jquery.min.js"></script>
   <!-- Custom fonts for this template-->
   <link href="../../assets/vendor/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
 

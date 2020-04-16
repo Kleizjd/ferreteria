@@ -25,7 +25,6 @@
             <div class="p-5 col-lg-4 mx-md-auto">
                 <div class="login-card card ">
                     <div class="card-header">
-
                         <div class="justify-content-center row">
                             <div class="col-6">
                                 <img src="public/img/favicon/logo-ferreteria.png" alt="" class="img-fluid">
@@ -34,22 +33,21 @@
 
                     </div>
 
-                    <div class="card-body">
-                        <form id="frm_session" action="" method="POST" autocomplete="off">
-                            <fieldset>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Login" name="user" autofocus>
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password" name="password">
-                                </div>
-                                <input type="submit" class="btn btn-lg btn-primary btn-block" value="Ingresar">
-                            </fieldset>
-                        </form>
-                        <a href="views/Session/Register.html.php">Crear Usuario</a>
-
+                        <div class="card-body">
+                            <form id="frm_session" action="" method="POST" autocomplete="off">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Login" name="user" autofocus>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password" name="password">
+                                    </div>
+                                    <input type="submit" class="btn btn-lg btn-primary btn-block" value="Ingresar">
+                                </fieldset>
+                            </form>
+                            <a href="views/Session/Register.html.php">Crear Usuario</a>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>

@@ -19,17 +19,17 @@ if(!empty($_POST)){
 					$user = $obtain->real_escape_string($_POST["user"]);
 					$password = $obtain->real_escape_string($_POST["password"]);
 					$answer = array();
-					$sqlVerify = $objSession->execute("SELECT Login, CONCAT(Name, ' ', LastName) AS Complete_Name, Password, Role FROM user WHERE Login = '$user' AND Status = 'A'");
-					// echo "SELECT Login, CONCAT(Name, ' ', LastName) AS Complete_Name, password, Role FROM user WHERE Login = '$user' AND Status = 'A' <br>";
+					$sqlVerify = $objSession->execute("SELECT login, CONCAT(name, ' ', last_name) AS Complete_Name, password, role FROM user WHERE login = '$user' AND status = 'A'");
+					// echo "SELECT login, CONCAT(name, ' ', last_name) AS Complete_Name, password, role FROM user WHERE login = '$user' AND status = 'A' <br>";
 					// var_dump($sqlVerify);
 					//=========================VERIFY PASSWORD============================================
 					if(mysqli_num_rows($sqlVerify) != 0){
 						$row = $sqlVerify->fetch_assoc();
-						$passwordDB = $row['Password'];
+						$passwordDB = $row['password'];
 						if(password_verify($password, $passwordDB)){
 							$_SESSION['user_completeName'] = str_replace("*", "", $row['Complete_Name']);
-							$_SESSION['user_role'] = $row['Role'];
-							$_SESSION['user_id'] = $row['Login'];
+							$_SESSION['user_role'] = $row['role'];
+							$_SESSION['user_id'] = $row['login'];
 							// var_dump($_SESSION['user_completeName']);
 							$answer['typeAnswer'] = "success";
 							
@@ -64,7 +64,7 @@ if(!empty($_POST)){
 
 						$passEncrypt = password_hash($password, PASSWORD_BCRYPT, $options);
 
-						$sqlVerify = $objSession->execute("INSERT INTO user (Login, Password, Role, Status) VALUES ('$user', '$passEncrypt', 1, 'A')");
+						$sqlVerify = $objSession->execute("INSERT INTO user (login, password, role, status) VALUES ('$user', '$passEncrypt', 1, 'A')");
 
 						if(mysqli_affected_rows($objSession->getConnection()) > 0 ){
 							$answer['typeAnswer'] = "success";

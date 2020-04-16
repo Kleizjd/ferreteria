@@ -7,8 +7,8 @@
     <title>Registrar</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>-->
-    <link rel="stylesheet" href="../../vendor/bootstrap4/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="../../vendor/sweetalert/css/sweetalert2.min.css" >
+    <link rel="stylesheet" href="../../assets/vendor/bootstrap4/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="../../assets/vendor/sweetalert/css/sweetalert2.min.css" >
     <!--<script src='main.js'></script>-->
 </head>
 
@@ -43,8 +43,8 @@
         </div>
     </div>
 </body>
-<script src="../../vendor/jquery/jquery.min.js"></script>
-<script src="../../vendor/sweetalert/js/sweetalert2.min.js"></script>
+<script src="../../assets/vendor/jquery/jquery.min.js"></script>
+<script src="../../assets/vendor/sweetalert/js/sweetalert2.min.js"></script>
 <script src="../../public/js/login.js"></script>
 
 </html>

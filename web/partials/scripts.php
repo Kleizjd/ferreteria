@@ -1,3 +1,4 @@
+  <!-- ==============================Scripts=========================================== -->
   <!-- Bootstrap core JavaScript-->
   <script src="../../assets/vendor/bootstrap4/js/bootstrap.bundle.min.js"></script>
 
@@ -41,14 +42,9 @@
 <!-- <script src="../../assets/template/dist/js/perfect-scrollbar.jquery.min.js"></script> -->
 <!--Wave Effects -->
 <!-- <script src="../../assets/template/dist/js/waves.js"></script> -->
-<!--Menu sidebar -->
-<!-- <script src="../../assets/template/dist/js/sidebarmenu.js"></script> -->
+<script src="../../assets/vendor/bootstrap4/js/bootstrap.bundle.min.js"></script>
 <!--stickey kit -->
 <script src="../../assets/vendor/sticky-kit-master/dist/sticky-kit.min.js"></script>
-<!--Custom JavaScript -->
-<!-- <script src="../../assets/template/dist/js/custom.min.js"></script> -->
-<!-- Bootstrap tether Core JavaScript -->
-<!-- <script src="../../assets/vendor/datatable/js/datatables.min.js"></script> -->
 <!-- Crypto Js -> JavaScript library of crypto standards.. -->
 <script src="../../assets/vendor/crypto-js/js/crypto-js.min.js"></script>
 <!-- Cleave Js -> Format your <input/> content when you are typing. -->
@@ -57,13 +53,23 @@
 <script src="../../assets/vendor/select2/js/select2.full.min.js"></script>
 <!-- Select2 Language -->
 <script src="../../assets/vendor/select2/language/es.min.js"></script>
-<!-- Alertify JS -->
+
+<script src="../../public/js/login.js"></script>
+<script src="../../public/js/global.js"></script>
+<script src="../../public/js/Clock.js"></script>
+
+  <!--Menu sidebar -->
+<!-- <script src="../../assets/template/dist/js/sidebarmenu.js"></script> -->
+
+  <!--Custom JavaScript -->
+<!-- <script src="../../assets/template/dist/js/custom.min.js"></script> -->
+<!-- Bootstrap tether Core JavaScript -->
+<!-- <script src="../../assets/vendor/datatable/js/datatables.min.js"></script> -->
+
+  <!-- Alertify JS -->
 <!-- <script src="../../assets/vendor/alertify/js/alertify.min.js?v=<?=rand();?>"></script> -->
 <!-- Scripts Generales -->
 <!-- <script src="../../public/js/global.js?v=<?=rand();?>"></script> -->
-<script src="../../public/js/login.js"></script>
-  <script src="../../public/js/global.js"></script>
-  <script src="../../public/js/Clock.js"></script>
   
 
 

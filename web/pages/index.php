@@ -1,4 +1,4 @@
-<?php include_once "../../app/lib/helpers.php";?>
+
 <?php @session_start();
 include_once "../../config/env.php";
 ?>
@@ -13,7 +13,8 @@ include_once "../../config/env.php";
 <head>
     <!-- jQuery 3.4.1 -->
     <!-- <script src="../../assets/vendor/jquery/jquery-3.4.1.min.js"></script> -->
-     <script src="../../assets/vendor/jquery/jquery.min.js"></script>
+     <!-- <script src="../../assets/vendor/jquery/jquery.min.js"></script> -->
+     <!-- <script src="../../assets/vendor/jquery/jquery-3.5.0.js"></script> -->
     <?php include_once "../../web/partials/head.php"; ?>
 </head>
 
