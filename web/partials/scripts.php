@@ -37,11 +37,10 @@
     <!-- Image Map Resize Js -> This is a simple library that makes HTML Image Maps responsive. -->
     <script src="../../assets/vendor/sb-admin-2/lib/image-map-resize/imageMapResizer.min.js"></script>
 
+    <!--Custom JavaScript // ES NECESARIO PARA QUE FUNCIONE EL PRELOADER -->
+    <script src="../../assets/template/dist/js/custom.min.js"></script>
+
 <!-- scripts from daniel -->
-<!-- slimscrollbar scrollbar JavaScript -->
-<!-- <script src="../../assets/template/dist/js/perfect-scrollbar.jquery.min.js"></script> -->
-<!--Wave Effects -->
-<!-- <script src="../../assets/template/dist/js/waves.js"></script> -->
 <script src="../../assets/vendor/bootstrap4/js/bootstrap.bundle.min.js"></script>
 <!--stickey kit -->
 <script src="../../assets/vendor/sticky-kit-master/dist/sticky-kit.min.js"></script>
@@ -58,11 +57,13 @@
 <script src="../../public/js/global.js"></script>
 <script src="../../public/js/Clock.js"></script>
 
+<!-- slimscrollbar scrollbar JavaScript -->
+<!-- <script src="../../assets/template/dist/js/perfect-scrollbar.jquery.min.js"></script> -->
+<!--Wave Effects -->
+<!-- <script src="../../assets/template/dist/js/waves.js"></script> -->
   <!--Menu sidebar -->
 <!-- <script src="../../assets/template/dist/js/sidebarmenu.js"></script> -->
 
-  <!--Custom JavaScript -->
-<!-- <script src="../../assets/template/dist/js/custom.min.js"></script> -->
 <!-- Bootstrap tether Core JavaScript -->
 <!-- <script src="../../assets/vendor/datatable/js/datatables.min.js"></script> -->
 

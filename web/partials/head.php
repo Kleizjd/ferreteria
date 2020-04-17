@@ -13,8 +13,7 @@
 
   <!-- Custom styles for this template-->
   <link href="../../assets/vendor/dist/css/sb-admin.css" rel="stylesheet">
-  <!-- Custom CSS loaders -->
-<!-- <link href="../../assets/template/dist/css/preloader.css?v=<?=rand();?>" rel="stylesheet"> -->
+
   <!-- Sweet alert 2 CSS -->
   <link href="../../assets/vendor/sweetalert/css/sweetalert2.min.css?v=<?=rand(); ?>" rel="stylesheet">
   <!-- SweetAlert 2 JS -->
@@ -24,6 +23,9 @@
   <!-- Select2 Bootstrap Theme -->
   <link href="../../assets/vendor/select2/css/select2-bootstrap.min.css?v=<?=rand(); ?>" rel="stylesheet">
   <!--------Jquery Always on head no matter if is js---------->
+
+  <!-- Custom CSS loaders -->
+  <link href="../../assets/template/dist/css/preloader.css?v=<?=rand();?>" rel="stylesheet">
 
 <!-- Dashboard 1 Page CSS -->
 <!-- <link href="../../assets/template/dist/css/pages/dashboard1.css" rel="stylesheet"> -->

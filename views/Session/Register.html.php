@@ -43,7 +43,6 @@
                                 <div class="form-group">
                                     <div class="form-label-group">
                                         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required">
-                                        <label for="inputEmail">Email address</label>
                                     </div>
                                 </div>
                                 <div class="form-group">
